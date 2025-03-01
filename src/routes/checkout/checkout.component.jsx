@@ -41,6 +41,7 @@ const Checkout = () => {
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
       <Total>Total: ${cartTotal}</Total>
+
       <PaymentForm />
     </CheckoutContainer>
   );
